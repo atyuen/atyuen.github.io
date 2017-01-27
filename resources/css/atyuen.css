@@ -1,0 +1,298 @@
+html {
+  width: 100%;
+  height: 100%;
+  background: url(../images/bball.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  /*color: rgba(0, 0, 0, 0.8);*/
+  background-color: transparent !important;
+}
+
+
+h1 {
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+
+
+
+/* Navbar */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-custom {
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  color: #EF5350;
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar-custom.top-nav-collapse li a {
+    color: black;
+  }
+}
+
+
+#myface {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 20em;
+}
+
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  text-align: center;
+  /*color: white;*/
+  font-family: 'Raleway', sans-serif;
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.intro .intro-body .name {
+  font-size: 5em;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+.intro .intro-body .intro-text {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+ul.list-inline {
+  margin-top: 25px;
+}
+
+
+
+.fa-color {
+  color: black;
+  margin-right: 15px;
+  margin-top: -15px;
+}
+
+
+
+
+.content-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.box {
+  border: 5px solid #ecf0f1;
+  display: inline-block;
+  border-bottom-color: #EF5350;
+  border-right-color: #EF5350;
+}
+
+/*.box-red {
+  border: 3px solid #EF5350;
+  color: #EF5350;
+  display: inline-block;
+  padding: 7px;
+}
+
+.box-green {
+  border: 3px solid #2ECC71;
+  color: #2ECC71;
+  display: inline-block;
+  padding: 7px;
+}
+
+.box-blue {
+  border: 3px solid #2196F3;
+  color: #2196F3;
+  display: inline-block;
+  padding: 7px;
+}*/
+
+footer {
+  padding: 15px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+
+.media-img-logo {
+  margin-right: 15px;
+}
+
+
+
+
+.light-section {
+  background: rgba(200, 200, 200, 0.85);
+  color: rgba(0, 0, 0, 0.75);
+  /*width: 100%;*/
+}
+
+.dark-section {
+  background: rgba(0, 0, 0, 0.6);
+  color: (255, 255, 255, 0.9);
+}
+
+
+
+
+
+
+.terminal {
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #E1E1E1;
+}
+.taskbar {
+  margin: 0;
+  padding: 4px 15px;
+}
+.taskbar div {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+.exit {
+  background: radial-gradient(circle, #ff6056, #ff6059);
+}
+.minimize {
+  background: radial-gradient(circle, #fec443, #ffbe42);
+}
+.maximize {
+  background: radial-gradient(circle, #00cc53, #00d958);
+}
+.code {
+  overflow: scroll;
+  /* max-height: 555px; */
+  padding: 0px 30px;
+  padding-bottom: 25px;
+  white-space: nowrap;
+  color: ghostwhite;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #2B2F3A;
+}
+.wordwrap {
+  white-space: pre-wrap;      /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap;     /* Opera <7 */
+  white-space: -o-pre-wrap;   /* Opera 7 */
+  word-wrap: break-word;      /* IE */
+}
+.greenText {
+  color: #A7CC8C;
+}
+.greyText {
+  color: #B9C0CB;
+}
+.redText {
+  color: #E88388;
+}
+#codesections h3 {
+  font-size: 1.8em;
+}
+#codesections h4 {
+  text-indent: 25px;
+}
+#summary p, #codesections h4 {
+  font-size: 1.4em;
+}
+.exp-descript h4 {
+  font-size: 1.4em;
+}
+
+.divider {
+  height: 0.15em;
+  width: 100%;
+  display: block; /* for use on default inline elements like span */
+  overflow: hidden;
+  background-color: ghostwhite;
+  margin-top: -20px;
+}
