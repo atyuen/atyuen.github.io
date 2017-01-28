@@ -14,7 +14,7 @@ $(document).ready(collapseNavbar);
 $(function(){
 	$('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
-    
+
     var target = this.hash;
     var $target = $(target);
 
@@ -23,3 +23,14 @@ $(function(){
     }, 700, 'swing');
 	});
 });
+
+var date = new Date();
+var year = date.getFullYear();
+var month = date.getMonth();
+var day = date.getDate();
+
+if (month < 4) {
+  document.getElementById("age").innerHTML = (year - 1) - 1996;
+} else {
+  document.getElementById("age").innerHTML = year - 1996;
+}
